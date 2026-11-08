@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A4</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="images/飛馬logo.png" alt="Logo">
+            </div>
+            <div class="header-text">
+                <h1>飛馬股份有限公司</h1>
+            </div>
+            <span id="status">狀態: 訪客</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="login.html">會員登錄</a></li>
+                <li><a href="a4.html">A4</a></li>
+                <li><a href="a5.html">A5</a></li>
+                <li><a href="Q5.html">Q5</a></li>
+                <li><a href="TT.html">TT</a></li>
+                <li><a href="electric.html">e-tron GT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="current-location">
+            <p>目前所在位置 > A4</p>
+        </section>
+        <section class="model">
+            <h2>A4 Sedan</h2>
+            <div class="model-details">
+                <p>奧迪A4 Sedan是一款典雅而豪華的四門轎車，提供出色的性能和舒適的駕乘體驗。它擁有多種引擎選擇，包括經濟高效的四缸引擎和更強勁的V6引擎選項。內部設計精美，配備豪華的皮革座椅和最新的娛樂系統。</p>
+                <p>截然不同的車身設計，賦予 The Audi A4 Sedan 全新設計語彙，展示更勝以往的跑格氣息：外觀彰顯動感，強勁且優美。</p>
+                <p>全車系標配 12.3 吋 Audi 全數位虛擬駕駛座艙，頂級品質與實用功能兼具的車室環境設計，從車用資訊娛樂系統、高效能引擎至安全駕駛輔助系統，如 ACC 主動式定速巡航控制系統、Audi lane assist 主動式車道維持及偏離警示系統、Audi side assist 車道變換輔助系統 (盲點警示) 等，宣示 Audi A4 Sedan 革新的設計美學。</p>
+                <p>無論是日常通勤還是長途旅行，A4 Sedan都能提供卓越的舒適性和安全性，是奧迪豪華轎車系列中的重要代表。</p>
+            </div>
+            <div class="model-image">
+                <div class="carousel">
+                    <span class="arrow left" onclick="prevImage('sedan')">&#8249;</span>
+                    <img src="images/A4-Sedan.jpg" alt="A4 Sedan" id="carousel-image-sedan">
+                    <span class="arrow right" onclick="nextImage('sedan')">&#8250;</span>
+                </div>
+            </div>
+        </section>
+        <section class="model">
+            <h2>A4 Avant</h2>
+            <div class="model-details">
+                <p>奧迪A4 Avant是一款精緻的旅行車，結合了豪華轎車的設計和實用性。它擁有與A4 Sedan相似的引擎選擇，但其設計更加注重載貨空間和多功能性。</p>
+                <p>Audi A4 Avant 兼具動感設計、頂級質感、數位化和靈活實用性。</p>
+                <p>外觀上，優雅修長的線條與輪廓，展現與前一代截然不同的嶄新風貌。</p>
+                <p>全車系標配 12.3 吋 Audi 全數位虛擬駕駛座艙，同時更標配全方位安全防護系統:
+                    ACC 主動式定速巡航控制系統、Audi lane assist 主動式車道維持及偏離警示系統、
+                    Audi side assist 車道變換輔助系統 (盲點警示) 等科技。</p>
+                <p>當您置身頂級質感打造的寬敞車室，享受更為靈活實用的空間運用性時，
+                    Audi 的創新科技，將全方位實踐您對日常生活的所有想像。</p>
+                <p>A4 Avant的後車廂提供了額外的載貨空間，適合家庭使用或需要更多儲物空間的用戶。同時，它也保持了A4系列車型的卓越性能和豪華感受。</p>
+            </div>
+            <div class="model-image">
+                <div class="carousel">
+                    <span class="arrow left" onclick="prevImage('avant')">&#8249;</span>
+                    <img src="images/A4-Avant.jpg" alt="A4 Avant" id="carousel-image-avant">
+                    <span class="arrow right" onclick="nextImage('avant')">&#8250;</span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 飛馬股份有限公司。保留所有權利。</p>
+    </footer>
+
+    <script src="carousel.js"></script>
+    <script src="login.js"></script>
+</body>
+</html>

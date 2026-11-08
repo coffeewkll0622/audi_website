@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>會員登錄</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="images/飛馬logo.png" alt="Logo">
+            </div>
+            <div class="header-text">
+                <h1>飛馬股份有限公司</h1>
+            </div>
+            <div id="status">訪客</div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="login.html">會員登錄</a></li>
+                <li><a href="a4.html">A4</a></li>
+                <li><a href="a5.html">A5</a></li>
+                <li><a href="Q5.html">Q5</a></li>
+                <li><a href="TT.html">TT</a></li>
+                <li><a href="electric.html">e-tron GT</a></li>
+            </ul>
+        </nav>
+    </header>    
+    <main>
+        <section class="current-location">
+            <p>目前所在位置 > 會員登錄</p>
+        </section>
+        <section class="login-form" id="login-form">
+            <h2>會員登錄</h2>
+            <form onsubmit="event.preventDefault(); login();">
+                <label for="username">用戶名:</label>
+                <input type="text" id="username" name="username" required>
+                <br>
+                <label for="password">密碼:</label>
+                <input type="password" id="password" name="password" required>
+                <br>
+                <button type="submit">登錄</button>
+            </form>
+            <div id="login-message"></div>
+        </section>
+        <section id="user-section" class="hidden">
+            <p id="user-greeting"></p>
+            <p>若有任何問題請洽客服人員電子信箱<a href="mailto:ngopdhlk10@gmail.com">ngopdhlk10@gmail.com</a>，我們會盡快為您服務。</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 飛馬股份有限公司。保留所有權利。</p>
+    </footer>
+    <script src="login.js"></script>
+</body>
+</html>
